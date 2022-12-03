@@ -1,0 +1,88 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <title>Vote Center :D</title>
+  </head>
+  <body
+    style="
+      background: url('https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')
+        no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+    "
+  >
+    <h1>VOTE VOTE VOTE</h1>
+
+    <h1>babe wake up, it's time to vote</h1>
+
+    <section class="vh-100 gradient-custom">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card bg-dark text-white" style="border-radius: 1rem">
+              <div class="card-body p-5 text-center">
+                <div class="mb-md-5 mt-md-4 pb-5">
+                  <h2 class="fw-bold mb-2 text-uppercase">Cast Your Vote</h2>
+                  <div>
+                    <img
+                      src="https://media-exp1.licdn.com/dms/image/C5603AQGW6yYVOLhhGQ/profile-displayphoto-shrink_400_400/0/1631819937290?e=1675296000&v=beta&t=z4jD7myMpCfEC8A5fkiNP72MvwiYX_UKmLtM0Q_UbFY"
+                      alt="Caden Karras"
+                      style="height: 300; width: 300"
+                    />
+                    <br />
+                    <input
+                      type="radio"
+                      id="VoteCaden"
+                      name="vote"
+                      value="VoteCaden"
+                    />
+                    <label for="html">Caden Karras</label><br />
+
+                    <br />
+
+                    <img
+                      src="https://d1tjohjvimcqgl.cloudfront.net/category/586513_n.jpg"
+                      alt="Mo Bamba"
+                      style="height: 300; width: 300"
+                    />
+                    <br />
+                    <input
+                      type="radio"
+                      id="VoteMo"
+                      name="vote"
+                      value="VoteMo"
+                    />
+                    <label for="css">Mo Bamba</label><br />
+
+                    <br />
+
+                    <form method="GET" action="/congrats">
+                      <button
+                        style="text-align: center; height: 40px"
+                        class="btn btn-primary"
+                      >
+                        VOTE!!!
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
